@@ -1,0 +1,38 @@
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h1 {
+	background: lightblue;
+	text-align:center;
+}
+
+.bg {
+	background:blue; /*removed width of 100% cuz it was conflicting with wrapper*/
+	height: 1100px;
+}
+
+.nav{
+	height: 50px;
+}
+
+.table-button {
+	width: 120px;
+	height: 50px;
+	background: green;
+	text-align: center;
+}
+
+td:hover, th:hover{
+	background-color:lightgreen;
+}
+
+.footer {
+	text-align: center;
+	background: orange;
+}
+
+.center {
+	margin: 0 auto;
+}
